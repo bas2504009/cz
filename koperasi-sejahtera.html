@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koperasi Sejahtera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .produk {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .btn {
+            background-color: #2e7d32;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #1b5e20;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KOPERASI SEJAHTERA</h1>
+    <p>Melayani Kebutuhan Anda Setiap Hari</p>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Produk</a>
+    <a href="#">Tentang</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="container">
+    <h2>Daftar Produk</h2>
+    <div class="produk">
+        <div class="card">
+            <h3>Beras 5Kg</h3>
+            <p>Rp 65.000</p>
+            <button class="btn">Beli</button>
+        </div>
+
+        <div class="card">
+            <h3>Minyak Goreng 1L</h3>
+            <p>Rp 18.000</p>
+            <button class="btn">Beli</button>
+        </div>
+
+        <div class="card">
+            <h3>Gula 1Kg</h3>
+            <p>Rp 14.000</p>
+            <button class="btn">Beli</button>
+        </div>
+
+        <div class="card">
+            <h3>Mie Instan</h3>
+            <p>Rp 3.000</p>
+            <button class="btn">Beli</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Koperasi Sejahtera | Alamat: Jl. Contoh No.123</p>
+</footer>
+
+</body>
+</html>
